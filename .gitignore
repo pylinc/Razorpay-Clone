@@ -1,1 +1,53 @@
+# Node modules
 node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Tailwind CSS generated files (if using CLI without processing)
+# Only ignore if your CSS is generated, not if it's your source file
+# output.css
+# styles.css
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Package manager files
+package-lock.json  # (optional - some prefer to commit this)
+yarn.lock         # (optional - some prefer to commit this)
+pnpm-lock.yaml    # (optional - some prefer to commit this)
+
+# Cache
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+
+# Temporary files
+*.tmp
+*.temp
